@@ -7,3 +7,63 @@
  Template:     wp-bootstrap
  Version:      1.0.0
 */
+
+@font-face {
+	font-family: nexa;
+	src: url('./fonts/nexa-light.otf');
+}
+
+@font-face {
+	font-family: nexa;
+	src: url('./fonts/nexa-bold.otf');
+	font-weight: bold;
+}
+
+html, body
+{
+	height: 100%;
+}
+
+body
+{
+	padding-top: 0px;
+	background: url('./images/noise.png') repeat;
+}
+
+header
+{
+
+}
+
+footer.page-footer
+{
+	height: 300px;
+	background: url('./images/black-diamond.png') repeat;
+	padding: 1em 0;
+	box-shadow: inset 0px 22px 19px -19px black;
+}
+
+.homepage-header
+{
+	width: 100%;
+	height: 465px;
+	margin: 1.5em 0;
+	text-indent: -9999px;
+	background: url('./images/TheEruditeChimp.png') center no-repeat;
+}
+
+p:first-of-type, p.nexa
+{
+	font-family: nexa;
+}
+
+h1, h2, label
+{
+	font-family: nexa;
+	font-weight: bold;
+}
+
+.bottom-misc
+{
+
+}
