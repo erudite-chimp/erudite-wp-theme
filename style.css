@@ -41,6 +41,20 @@ header
 	min-height: 40px;
 }
 
+.navbar-fixed-top
+{
+	top: 0px;
+	-webkit-transition: top 0.5s;
+	transition: top 0.5s;
+}
+.navbar-hide
+{
+	top: -40px;
+	-webkit-transition: top 0.5s;
+	transition: top 0.5s;
+}
+
+
 .navbar-brand
 {
 	position: fixed;

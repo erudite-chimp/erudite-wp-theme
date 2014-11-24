@@ -16,12 +16,12 @@
 		console.log(scroll + "px");
 		var $main_navbar = $(".navbar-fixed-top");
 		if (scroll > logo_height_offset) {
-			$main_navbar.show();
+			$main_navbar.removeClass("navbar-hide");
 			console.log('show');
 		}
 		else
 		{
-			$main_navbar.hide();
+			$main_navbar.addClass("navbar-hide");
 			console.log('hide');
 		}
 	}
