@@ -11,7 +11,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title><?php wp_title( '|', true, 'right' ); ?></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 		<!-- wordpress head functions -->
 		<?php wp_head(); ?>
@@ -29,8 +29,10 @@
 
 			<!-- respond.js -->
 		<!--[if lt IE 9]>
-		          <script type='text/javascript' src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+			<script type='text/javascript' src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
 		<![endif]-->
+
+		<script type='text/javascript' src="<?php echo get_stylesheet_directory_uri(); ?>/js/erudite.js"></script>
 	</head>
 
 	<body <?php body_class(); ?>>
@@ -39,7 +41,7 @@
 			<h1 class="homepage-header">
 				<?php echo get_bloginfo('title'); ?>
 			</h1>
-			<div class=" navbar navbar-default navbar-fixed-top">
+			<div class="navbar navbar-default navbar-fixed-top">
 				<div class="container">
 
 					<div class="navbar-header">

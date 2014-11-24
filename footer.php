@@ -11,12 +11,12 @@
 					<?php endif; ?>
 				  </div>
 
-					<nav class="clearfix">
+					<nav class="footer-nav clearfix">
 						<?php wp_bootstrap_footer_links(); // Adjust using Menus in Wordpress Admin ?>
 					</nav>
 
-					<div class="bottom-misc">
-						<p class="nexa pull-right"><a href="http://320press.com" id="credit320" title="By the dudes of 320press">Parent theme by 320press</a></p>
+					<div class="copyright">
+						<p class="nexa pull-right"><a href="http://320press.com" id="credit320" title="By the dudes of 320press">Based on theme by 320press</a></p>
 						<p class="nexa attribution">&copy; <?php echo date("Y"); ?> <?php bloginfo('name'); ?></p>
 					</div>
 				</div> <!-- end #inner-footer -->
