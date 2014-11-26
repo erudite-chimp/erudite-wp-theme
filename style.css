@@ -54,17 +54,40 @@ header
 	transition: top 0.5s;
 }
 
+.navbar-nav>li>a
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover
+{
+	background-color: #FCDC6B;
+}
+
+.navbar-default .navbar-nav>li>a:hover
+{
+	background-color: #FEF1B5;
+}
+
+#content a
+{
+	color: #B5A642;
+}
+footer.page-footer a
+{
+	color: #FCDC6B;
+}
 
 .navbar-brand
 {
-	position: fixed;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-indent: 50px;
-	margin-top: 1px;
 	margin-left: -65px !important;
 	padding: 12px 15px;
-	background: url('./images/TheEruditeChimp_logo_small_crop.png') no-repeat;
+	background: url('./images/TheEruditeChimp_logo_small_crop.png') no-repeat 0px 2px;
 	height: 40px;
 }
 
