@@ -30,28 +30,48 @@ body
 	background: url('./images/noise.png') repeat;
 }
 
-header
+#navbar-container-space
 {
-
+	height: 40px;
 }
 
 .navbar
 {
-	font-family: nexa;
 	min-height: 40px;
+	font-family: nexa;
+	-webkit-transition: top 0.5s;
+	transition: top 0.5s;
+	text-transform: lowercase;
 }
 
 .navbar-fixed-top
 {
 	top: 0px;
-	-webkit-transition: top 0.5s;
-	transition: top 0.5s;
 }
 .navbar-hide
 {
 	top: -40px;
-	-webkit-transition: top 0.5s;
-	transition: top 0.5s;
+}
+
+.navbar-embed
+{
+	background: none !important;
+	border: 0px;
+}
+
+.navbar-embed #menu-the-main-menu
+{
+	float: none;
+	font-size: 1.75em;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.navbar-embed #menu-the-main-menu > li
+{
+	display: inline-block;
+	float: none;
 }
 
 .navbar-nav>li>a
@@ -61,26 +81,28 @@ header
 }
 
 .navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:hover
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus
 {
-	background-color: #FCDC6B;
-}
-
-.navbar-default .navbar-nav>li>a:hover
-{
-	background-color: #FEF1B5;
+	background-color: rgba(61, 55, 97, 0.6);
+	color: #EFEFEF;
 }
 
 #content a
 {
-	color: #B5A642;
+	color: rgba(61, 55, 97, 0.5);
 }
 footer.page-footer a
 {
-	color: #FCDC6B;
+	color: #3d3761;
 }
 
-.navbar-brand
+.navbar-embed .navbar-brand
+{
+	display: none;
+}
+
+.navbar-fixed-top .navbar-brand
 {
 	font-weight: bold;
 	text-transform: uppercase;
@@ -95,27 +117,74 @@ footer.page-footer
 {
 	background: url('./images/black-diamond.png') repeat;
 	color: #CCC;
-	padding: 1em 0;
+	padding: 20px 0;
 	box-shadow: inset 0px 22px 19px -19px black;
 }
 
 footer .footer-nav
 {
-	height: 200px;
+	height: 0;/*200px;*/
 }
 
 .homepage-header
 {
 	width: 100%;
-	height: 465px;
+	height: 154px;
 	margin: 0.5em 0;
 	text-indent: -9999px;
+	background: url('./images/TheEruditeChimp_title.png') center no-repeat;
+}
+
+.home .homepage-header
+{
+	height: 465px;
 	background: url('./images/TheEruditeChimp.png') center no-repeat;
 }
 
-p:first-of-type, p.nexa
+#header-decoration-1,
+#header-decoration-2
+{
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	left: 50%;
+	border-radius: 100%;
+	opacity: 0.2;
+	top: -310px;
+}
+
+.home #header-decoration-1,
+.home #header-decoration-2
+{
+	top: 10px;
+}
+
+#header-decoration-1
+{
+	margin-left: -350px;
+	box-shadow: inset 0px 0px 95px #6d3a7b;
+}
+
+#header-decoration-2
+{
+	margin-left: -250px;
+	box-shadow: inset 0px 0px 95px #3d3761;
+}
+
+.home.page article p:first-of-type
+{
+	margin-top: 75px;
+	font-size: 1.25em;
+}
+
+p:first-of-type, p.nexa, .home > *
 {
 	font-family: nexa;
+}
+
+article
+{
+	font-size: 1.5em;
 }
 
 h1, h2, label

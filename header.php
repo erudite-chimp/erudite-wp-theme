@@ -38,19 +38,23 @@
 	<body <?php body_class(); ?>>
 
 		<header role="banner">
+			<div id="header-decoration-1"></div>
+			<div id="header-decoration-2"></div>
 			<h1 class="homepage-header">
 				<?php echo get_bloginfo('title'); ?>
 			</h1>
-			<div class="navbar navbar-default navbar-fixed-top navbar-hide">
-				<div class="container">
-					<div class="navbar-header">
-						<a class="navbar-brand" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
-					</div>
-					<div class="collapse navbar-collapse navbar-responsive-collapse">
-						<?php wp_bootstrap_main_nav(); // Adjust using Menus in Wordpress Admin ?>
-					</div>
-				</div> <!-- end .container -->
-			</div> <!-- end .navbar -->
+			<div id="navbar-container-space">
+				<div id="main-navbar" class="navbar navbar-default navbar-fixed-top">
+					<div class="container">
+						<div class="navbar-header">
+							<a class="navbar-brand" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
+						</div>
+						<div class="collapse navbar-collapse navbar-responsive-collapse">
+							<?php wp_bootstrap_main_nav(); // Adjust using Menus in Wordpress Admin ?>
+						</div>
+					</div> <!-- end .container -->
+				</div> <!-- end .navbar -->
+			</div>
 
 		</header> <!-- end header -->
 
