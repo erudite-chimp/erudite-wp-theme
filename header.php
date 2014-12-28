@@ -41,7 +41,10 @@
 			<div id="header-decoration-1"></div>
 			<div id="header-decoration-2"></div>
 			<h1 class="homepage-header">
-				<?php echo get_bloginfo('title'); ?>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+					<?php echo get_bloginfo('title'); ?>
+					<div class="faux-header"></div>
+				</a>
 			</h1>
 			<div id="navbar-container-space">
 				<div id="main-navbar" class="navbar navbar-default navbar-fixed-top">
