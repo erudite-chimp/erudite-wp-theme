@@ -129,6 +129,16 @@ footer .footer-nav
 	height: 0;/*200px;*/
 }
 
+footer ul.footer-icons
+{
+	margin-bottom: 0;
+}
+
+footer ul.footer-icons li a
+{
+	text-shadow: 1px 1px 0px white;
+}
+
 .homepage-header
 {
 	width: 100%;
@@ -258,10 +268,11 @@ h1, h2, label
 	color: #EFEFEF;
 }
 
-.copyright > p
+.copyright p
 {
 	margin: 0;
-	text-shadow: 0px -1px 3px black;
+	margin-top: 1em;
+	text-shadow: 1px 1px 1px #333;
 }
 
 .lead
