@@ -12,7 +12,7 @@
 		<title><?php wp_title( '|', true, 'right' ); ?></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<!--link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"-->
 		<!-- wordpress head functions -->
 		<?php wp_head(); ?>
 		<!-- end of wordpress head -->
@@ -35,7 +35,7 @@
 		<script type='text/javascript' src="<?php echo get_stylesheet_directory_uri(); ?>/js/erudite.js"></script>
 	</head>
 
-	<body <?php body_class(); ?>>
+	<body <?php body_class(); ?>><div id="content-wrapper">
 
 		<header role="banner">
 			<div id="header-decoration-1"></div>
@@ -61,4 +61,4 @@
 
 		</header> <!-- end header -->
 
-		<div class="container">
+		<div id="body-content" class="container">

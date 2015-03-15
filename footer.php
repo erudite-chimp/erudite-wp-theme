@@ -18,7 +18,7 @@
 					<div class="copyright">
 							<div class="row">
 								<div class="col-sm-3">
-									<p class="attribution" data-toggle="tooltip" data-placement="top" title="Answers to 'Adam Tarnowsky'">&copy; <?php echo date("Y"); ?> <?php bloginfo('name'); ?></p>
+									<p class="attribution" data-toggle="tooltip" data-placement="top" title="a.k.a. Adam Tarnowsky">&copy; <?php echo date("Y"); ?> <?php bloginfo('name'); ?></p>
 								</div>
 								<div class="col-sm-6">
 									<ul class="footer-icons text-center list-inline">
@@ -45,6 +45,7 @@
 			});
 		</script>
 		<?php wp_footer(); // js scripts are inserted using this function ?>
-	</body>
+
+	</div></body>
 
 </html>
