@@ -202,10 +202,22 @@ footer ul.footer-icons
 	margin-bottom: 0;
 }
 
-footer ul.footer-icons li a
+footer ul.footer-icons li a:not(:hover)
 {
 	text-shadow: 1px 1px 0px white;
 }
+
+footer ul.footer-icons li a:hover
+{
+	text-shadow: 1px 1px 0px black;
+}
+
+footer ul.footer-icons li a
+{
+	display: block;
+	line-height: 100%;
+}
+
 
 .homepage-header
 {

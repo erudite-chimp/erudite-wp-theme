@@ -18,7 +18,7 @@
 					<div class="copyright">
 							<div class="row">
 								<div class="col-sm-3">
-									<p class="attribution" data-toggle="tooltip" data-placement="top" title="a.k.a. Adam Tarnowsky">&copy; <?php echo date("Y"); ?> <?php bloginfo('name'); ?></p>
+									<p class="attribution" data-toggle="tooltip" data-placement="top" title="Adam Tarnowsky">&copy; <?php echo date("Y"); ?> <?php bloginfo('name'); ?></p>
 								</div>
 								<div class="col-sm-6">
 									<ul class="footer-icons text-center list-inline">
@@ -28,7 +28,7 @@
 									</ul>
 								</div>
 							<div class="col-sm-3 text-right">
-								<p><a href="http://320press.com" id="credit320" data-toggle="tooltip" data-placement="top" title="By the dudes of 320press">Based on wp-bootstrap theme</a></p>
+								<p><a href="http://320press.com" id="credit320" data-toggle="tooltip" data-placement="top" title="By the peeps at 320press">Based on wp-bootstrap theme</a></p>
 							</div>
 					</div>
 				</div> <!-- end #inner-footer -->
