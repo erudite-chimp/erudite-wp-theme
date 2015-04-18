@@ -292,7 +292,7 @@ header[role="banner"]
 
 article section p.lead
 {
-	text-indent: 0 !important;
+	text-indent: 25px !important;
 }
 
 article p.meta
@@ -300,12 +300,18 @@ article p.meta
 	margin-bottom: 15px;
 }
 
-body:not(.home) article section p:not(.meta)
+body:not(.home) article section p:not(.meta),
+body:not(.home) article section ul,
 {
 	font-size: 1.25em;
 	line-height: 1.75em;
 	margin-bottom: 1.5em;
-	text-indent: 25px;
+	text-indent: 0px;
+}
+
+body:not(.home) article section ul li
+{
+	margin-bottom: 1em;
 }
 
 ul
@@ -400,4 +406,11 @@ body.home .faux-header
 {
 	list-style: none;
 	padding-left: 10px;
+}
+
+img, .image, .picture
+{
+	border: 1px solid #333;
+	padding: 3px;
+	background: white;
 }
