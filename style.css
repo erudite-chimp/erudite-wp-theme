@@ -301,7 +301,7 @@ article p.meta
 }
 
 body:not(.home) article section p:not(.meta),
-body:not(.home) article section ul,
+body:not(.home) article section ul
 {
 	font-size: 1.25em;
 	line-height: 1.75em;
